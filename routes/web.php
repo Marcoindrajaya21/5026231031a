@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\PenghapusController;
+use App\Http\Controllers\KaryawanDBController;
 
 /*
 |--------------------------------------------------------------------------
@@ -48,4 +49,11 @@ Route::get('/pegawai/hapus/{id}', [PegawaiDBController::class, 'hapus']);
 Route::get('/pegawai/cari', [PegawaiDBController::class, 'cari']);
 
 Route::resource('penghapus', PenghapusController::class);
+
+
+//route karywan
+Route::get('/karyawan', [KaryawanDBController::class, 'index']);
+Route::get('/tambah/karyawan', [KaryawanDBController::class, 'tambah']);
+Route::post('/karyawan/store', [KaryawanDBController::class, 'store']); //jika form dikirim, route ini akan dijalankan
+Route::get('/karyawan/hapus/{id}', [KaryawanDBController::class, 'hapus']);
 

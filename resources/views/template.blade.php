@@ -33,7 +33,10 @@
                 <a class="nav-link" href="/pegawai">Pegawai</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Tugas CRUD</a>
+                <a class="nav-link" href="/lampu">Tugas CRUD</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/karyawan">Karyawan</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">EAS</a>
