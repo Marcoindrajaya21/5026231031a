@@ -21,13 +21,13 @@
 
 <body>
     <div class="jumbotron text-center mx-auto">
-        <h1>5026231031 : Maarco Indrajaya</h1>
+        <h1>5026231031 : Marco Indrajaya</h1>
     </div>
 
     <nav class="navbar navbar-expand-sm bg-light">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">All Front End</a>
+                <a class="nav-link" href="/frontend">All Front End</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/pegawai">Pegawai</a>
