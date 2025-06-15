@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\PenghapusController;
 use App\Http\Controllers\KaryawanDBController;
+use App\Http\Controllers\PageCounterController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -57,3 +59,6 @@ Route::get('/tambah/karyawan', [KaryawanDBController::class, 'tambah']);
 Route::post('/karyawan/store', [KaryawanDBController::class, 'store']); //jika form dikirim, route ini akan dijalankan
 Route::get('/karyawan/hapus/{id}', [KaryawanDBController::class, 'hapus']);
 
+
+//router pagecounter
+Route::get('/pagecounter', [PageCounterController::class, 'pageindex']);
