@@ -5,6 +5,7 @@ use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\PenghapusController;
 use App\Http\Controllers\KaryawanDBController;
 use App\Http\Controllers\PageCounterController;
+use App\Http\Controllers\NewKaryawanDBController;
 
 
 /*
@@ -62,3 +63,8 @@ Route::get('/karyawan/hapus/{id}', [KaryawanDBController::class, 'hapus']);
 
 //router pagecounter
 Route::get('/pagecounter', [PageCounterController::class, 'pageindex']);
+
+//route newkaryawan
+Route::get('/eas',[NewKaryawanDBController::class,'newkaryawanindex']);
+Route::get('/eas/tambah',[NewKaryawanDBController::class,'tambahnewkaryawan']);
+Route::get('/eas/hapus/{NIP}',[NewKaryawanDBController::class,'hapusnewkaryawan']);

@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Marco Indrajaya : 502631031</title>
+    <title>Ibrahim amar alfanani : 5026231195</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -21,7 +22,7 @@
 
 <body>
     <div class="jumbotron text-center mx-auto">
-        <h1>5026231031 : Marco Indrajaya</h1>
+        <h1>5026231031 :Marco Indrajaya</h1>
     </div>
 
     <nav class="navbar navbar-expand-sm bg-light">
@@ -36,19 +37,16 @@
                 <a class="nav-link" href="/lampu">Tugas CRUD</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/karyawan">Karyawan</a>
+                <a class="nav-link" href="/eas">EAS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">EAS</a>
+                <a class="nav-link" href="A1">Latihan 1</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/pagecounter">Latihan 1</a>
+                <a class="nav-link" href="/karyawan">Latihan 2</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/pegawai">Latihan 2</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/pegawai">Latihan 3</a>
+                <a class="nav-link" href="/karyawan">Latihan 3</a>
             </li>
         </ul>
     </nav>
