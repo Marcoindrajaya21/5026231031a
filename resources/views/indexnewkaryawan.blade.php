@@ -24,7 +24,7 @@
                     <td>{{ $p->pangkat }}</td>
                    <td>Rp{{ number_format($p->gaji, 0, ',', '.') }}</td>
         <td>
-                        <a href="/newkaryawan/hapus/{{$p->NIP}}" class="btn btn-sm btn-danger" onclick="return confirm('Yakin ingin menghapus data ini?')">Hapus</a>
+                        <a href="/eas/hapus/{{$p->NIP}}" class="btn btn-sm btn-danger" onclick="return confirm('Yakin ingin menghapus data ini?')">Hapus</a>
                     </td>
                 </tr>
                 @endforeach
